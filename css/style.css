@@ -66,22 +66,63 @@ html {
 }
 
 .mini-box-1 {
-    margin: 7%;
+    margin: 2%;
     background-color: white;
-    padding: 1%
+    padding: 2%
     
 }
 
+.button-1 {
+    background-color:#0E1215;
+    display: inline-flex;
+    border-radius: 3px;
+    padding: 3%;
+    height: 50px;
+
+}
+
+#button-1-title {
+    color: white;
+}
+
+
 .mini-box-2 {
-    margin: 7%;
+    margin: 2%;
     background-color: white;
-    padding: 1%
+    padding: 2%
+}
+
+
+.button-2 {
+    background-color:#0E1215;
+    display: inline-flex;
+    border-radius: 3px;
+    padding: 3%;
+    height: 50px;
+
+}
+
+#button-2-title {
+    color: white;
 }
 
 .mini-box-3 {
-    margin: 7%;
+    margin: 2%;
     background-color: white;
-    padding: 1%;
+    padding: 2%;
+}
+
+.button-3 {
+    background-color:#0E1215;
+    display: inline-flex;
+    border-radius: 3px;
+    padding: 3%;
+    height: 50px;
+
+}
+
+#button-3-title {
+    color: white;
 }
 
 .text-2 {
