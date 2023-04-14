@@ -24,7 +24,7 @@ html {
 }
 
 .banner-img {
-    width: 1280px;
+    max-width: 50%;
 }
 
 
@@ -34,7 +34,8 @@ html {
     background-color: #0E1215;
     color: white;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
     
 }
 
@@ -68,6 +69,11 @@ html {
     font-size: 0.70rem;
     padding: 8%;
     margin: 0;
+}
+
+#intro-text {
+    overflow: auto;
+       
 }
 
 .box-2 {
@@ -167,17 +173,27 @@ html {
 }
 
 #text-3 {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
 }
 
 .images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 50px;
-    justify-content: center;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 3px;
+    
 }
 
+.images img {
+    max-width: 100%;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 3px;
+}
 .quotes {
     background-color: #0E1215;
     
@@ -192,7 +208,7 @@ html {
 
 #quote {
     color: white;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     padding: 10%;
     font-style: italic;
     
@@ -223,6 +239,25 @@ html {
     justify-content: center;
     padding-top: 0%;
     font-size: 0.65rem;
+    line-height: 1.5;
+}
+
+#instagram {
+    max-width: 5%;
+}
+
+#facebook {
+    max-width: 5%;
+}
+
+#twitter {
+    max-width: 5%;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
 }
 
 .footer {
@@ -236,7 +271,7 @@ html {
     display: flex;
     justify-content: center;
     font-size: 0.75rem;
-    padding: 0.9%;
+    padding-top: 2%;
 }
 
 
