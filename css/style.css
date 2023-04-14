@@ -38,6 +38,10 @@ html {
     
 }
 
+#nav {
+    color: white;
+}
+
 
 .box-1 {
     display: flex;
